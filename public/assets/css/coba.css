@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #b1d4e0;
+    padding: 10px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-link {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .dropdown-menu {
+    background-color: #b1d4e0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  .dropdown-item {
+    position: relative;
+  }
+
+  .dropdown-item:hover .dropdown-menu {
+    display: block;
+  }
